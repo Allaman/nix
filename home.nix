@@ -30,10 +30,13 @@
     pkgs.go
     pkgs.go-task # Makefile alternative written in Go
     pkgs.gopass # CLI password manager
+    pkgs.helix # TUI text editor written in Rust
     pkgs.lf # TUI file manager
     pkgs.localsend # AirDrop alternative
     pkgs.nodejs
+    pkgs.oh-my-posh # Shell prompt renderer
     pkgs.obsidian # markdown based knowledge management
+    pkgs.python312
     pkgs.rofi # App launcher / dmenu replacement
     pkgs.ripgrep # grep alternative
     pkgs.rustc
