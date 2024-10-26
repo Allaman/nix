@@ -131,16 +131,6 @@
   # Bluetooth GUI if bluetoothctl is not sufficient
   #hardware.bluetooth.enable = true;
 
-  # Enable sound with pipewire.
-  sound.enable = true;
-  hardware.pulseaudio.enable = false;
-  security.rtkit.enable = true;
-  services.pipewire = {
-    enable = true;
-    alsa.enable = true;
-    alsa.support32Bit = true;
-    pulse.enable = true;
-  };
   programs.zsh.enable = true;
   # Apparently, those are defaults and overwrite my "~/.shell/aliases"
   # so I need to disable them here
