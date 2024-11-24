@@ -22,6 +22,7 @@
     pkgs.cargo
     pkgs.chezmoi # dotfile management
     pkgs.clipmenu # clipboard manager
+    pkgs.delta # Git pager
     pkgs.distrobox # Linux distribution as Podman/Docker
     pkgs.eza # ls alternative (from flake.nix)
     pkgs.fd # finder alternative
@@ -31,6 +32,7 @@
     pkgs.go-task # Makefile alternative written in Go
     pkgs.gopass # CLI password manager
     pkgs.helix # TUI text editor written in Rust
+    pkgs.lazygit # TUI git client
     pkgs.lf # TUI file manager
     pkgs.localsend # AirDrop alternative
     pkgs.nodejs
@@ -48,6 +50,7 @@
     pkgs.xclip # clipboard tool
     pkgs.xdotool # simulate keyboard/mouse
     pkgs.yazi # TUI file manager
+    pkgs.zellij # Terminal workspace with batteries included
     pkgs.zoxide # Quickly jump to know folders
     # # It is sometimes useful to fine-tune packages, for example, by applying
     # # overrides. You can do that directly here, just don't forget the
